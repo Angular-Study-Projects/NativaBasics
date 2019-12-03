@@ -1,0 +1,34 @@
+Label {
+    width: 50;
+    height: 50;
+}
+
+.grid {
+    border-color: black;
+    border-bottom-width: 2;
+    /* padding: 50; */
+}
+
+#id1 {
+    background-color: green;
+}
+
+#id2 {
+    background-color: yellow;
+}
+
+#id3 {
+    background-color: red;
+}
+
+#id4 {
+    background-color: green;
+}
+
+#id5 {
+    background-color: yellow;
+}
+
+#id6 {
+    background-color: red;
+}
