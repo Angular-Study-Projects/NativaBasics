@@ -1,34 +1,26 @@
 Label {
-    width: 50;
-    height: 50;
+    text-align: center;
 }
 
 .grid {
     border-color: black;
-    border-bottom-width: 2;
-    /* padding: 50; */
+    border-bottom-width: 1;
+    padding-bottom: 5;
+    margin-top: 5;
 }
 
-#id1 {
+.title {
+    font-size: 20;
+}
+
+#id1, #id4, #id7 {
     background-color: green;
 }
 
-#id2 {
+#id2, #id5, #id8 {
     background-color: yellow;
 }
 
-#id3 {
-    background-color: red;
-}
-
-#id4 {
-    background-color: green;
-}
-
-#id5 {
-    background-color: yellow;
-}
-
-#id6 {
+#id3, #id6, #id9 {
     background-color: red;
 }

@@ -4,19 +4,26 @@
 
 <ScrollView>
     <StackLayout>
-        <GridLayout rows="*,*,*" class="grid">
-            <Label id="id1" text="lbl01" row="0"></Label>
-            <Label id="id2" text="lbl02" row="1"></Label>
-            <Label id="id3" text="lbl03" row="2"></Label>
+        <GridLayout rows="*,*,*,*" class="grid">
+            <Label class="title" text="row grid" row="0"></Label>
+            <Label id="id1" text="lbl01" row="1"></Label>
+            <Label id="id2" text="lbl02" row="2"></Label>
+            <Label id="id3" text="lbl03" row="3"></Label>
         </GridLayout>
 
-        <GridLayout columns="*,*,*" class="grid">
-            <Label id="id4" text="lbl01" column="0"></Label>
-            <Label id="id5" text="lbl02" column="1"></Label>
-            <Label id="id6" text="lbl03" column="2"></Label>
+        <GridLayout columns="auto,*,*,*" class="grid">
+            <Label class="title" text="column grid" row="0"></Label>
+            <Label id="id4" text="lbl01" column="1"></Label>
+            <Label id="id5" text="lbl02" column="2"></Label>
+            <Label id="id6" text="lbl03" column="3"></Label>
         </GridLayout>
 
-        
+        <GridLayout rows=*,*,* columns="*,*,*" class="grid">
+            <Label class="title" text="row/column grid" row="0"  columnSpan="3"></Label>
+            <Label id="id7" text="lbl01" row="1" colSpan="2" column="0"></Label>
+            <Label id="id8" text="lbl02" row="2" column="1"></Label>
+            <Label id="id9" text="lbl03" row="1" rowSpan="3" column="2"></Label>
+        </GridLayout>
 
     </StackLayout>
 </ScrollView>
